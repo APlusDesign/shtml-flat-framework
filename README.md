@@ -11,8 +11,7 @@ Build your website like a house on-top of this very simple & sturdy foundation, 
 
 
 
-Templating
------------
+### Templating 
 
 CSS/IMAGES/TEMPLATES 
 
@@ -22,38 +21,34 @@ Think of templating as the ability to repaint your house at will
 
 
 
-Structure
------------
+### Structure
 
 Structure does not change, if you were to repaint your house you would not move an entire roow to do so, that way when your house is repainted everyone who visited still knows where things are.
 
 
-Content
------------
+### Content
 
 Content is similar to structure, if you were to repaint your house you would not throw all the furniture out. 
 
 
-Apache
-------------
+### Apache
 
 Make sure in your http.conf file to comment in
 
 - AddType text/html .shtml
 - AddOutputFilter INCLUDES .shtml
 
-    
+	
 I typically use the following virtualhost but it may vary for your setup
-    
-<VirtualHost *:80>
-    Options +Includes
-    DirectoryIndex index.shtml
-    ServerName local.yoursitepath.com
-    DocumentRoot "c:/wamp/www/yoursitepath/public"
-</VirtualHost>
+	
+	<VirtualHost *:80>
+		Options +Includes
+		DirectoryIndex index.shtml
+		ServerName local.yoursitepath.com
+		DocumentRoot "c:/wamp/www/yoursitepath/public"
+	</VirtualHost>
 
 
-Hosts file
-------------
+### Hosts file
 
 127.0.0.1 				local.yoursitepath.com
