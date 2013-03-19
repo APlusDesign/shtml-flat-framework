@@ -37,6 +37,14 @@ Content is similar to structure, if you were to repaint your house you would not
 Apache
 ------------
 
+Make sure in your http.conf file to comment in
+
+- AddType text/html .shtml
+- AddOutputFilter INCLUDES .shtml
+
+    
+I typically use the following virtualhost but it may vary for your setup
+    
 <VirtualHost *:80>
     Options +Includes
     DirectoryIndex index.shtml
