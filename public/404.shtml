@@ -1,23 +1,23 @@
 <!DOCTYPE html lang="en">
 <html>
 <head>
-	<!--#include virtual="/templates/default/head.html" -->
+	<!--#include virtual="/_templates/default/head.html" -->
 </head>
 <body id="template-default" class="">
 <!-- #wrapper -->
 <div id="wrapper">
 	<!-- #header-->
 	<header>
-		<!--#include virtual="/templates/default/header.html" -->
+		<!--#include virtual="/_templates/default/header.html" -->
 	</header>
-	<!-- #content-->
+	<!-- #_content-->
 	<div id="container">
-		<!--#include virtual="/content/404.html" -->
+		<!--#include virtual="/_content/404.html" -->
 	</div>
 </div>
 <!-- #footer -->
 <footer>
-	<!--#include virtual="/templates/default/footer.html" -->
+	<!--#include virtual="/_templates/default/footer.html" -->
 </footer>
 </body>
 </html>

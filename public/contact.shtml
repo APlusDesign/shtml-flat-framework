@@ -12,7 +12,7 @@
 	</header>
 	<!-- #_content-->
 	<div id="container">
-		<!--#include virtual="/_content/home.html" -->
+		<!--#include virtual="/_content/contact.html" -->
 	</div>
 </div>
 <!-- #footer -->
